@@ -10,7 +10,7 @@ App.use(Express.json());
 
 const d = new Database();
 
-d.connect("portfolio2", "PrestonFoshee");
+d.connect(); //your database info goes here
 
 App.put("/movies/:title", async (req, res) => {
     const title = req.params.title;

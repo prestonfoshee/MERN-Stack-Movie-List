@@ -1,6 +1,6 @@
 import MongoClient from 'mongodb';
 
-const URL = "mongodb+srv://PrestonFoshee:RqVd4VeRgSe9gDNO@cluster0.yuzwq.mongodb.net";
+const URL = "YourDatabaseGoesHere";
 
 export default class Database {
     constructor() {
