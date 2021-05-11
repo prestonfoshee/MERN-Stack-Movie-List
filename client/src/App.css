@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.addMovie {
+  display: flex;
+}
+
+.addMovie > * {
+  flex-basis: 100%;
+}
+
+body {
+  background-color: #4B4B4C;
+}
+
+input {
+  border-radius: 5px;
+  background-color: #c4c4c4;
+}
+
+input:focus {
+  outline: none;
+}
+
+h2 {
+  font-family: Manrope;
+  color: hsl(226, 73%, 14%);
+}
+
+p {
+  color: hsl(226, 73%, 14%);
+}
+
+button {
+  box-sizing: border-box;
+  border-radius: 1em;
+  width: 60%;
+  padding: 0.3em 1.2em;
+  font-size: 11px;
+  font-weight: 300;
+  color: hsl(226, 100%, 87%);
+  background-color: hsl(227, 35%, 25%);
+  border: none;
+  height: 25px;
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+.countText{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;600;800&display=swap");
